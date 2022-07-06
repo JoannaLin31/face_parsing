@@ -5,8 +5,8 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 import torchvision.transforms as T
-from ibug.roi_tanh_warping import roi_tanh_polar_restore, roi_tanh_polar_warp
-import ibug.roi_tanh_warping.reference_impl as ref
+from preAnnotation.thirdParty.roi_tanh_warping.ibug.roi_tanh_warping import roi_tanh_polar_restore, roi_tanh_polar_warp
+import preAnnotation.thirdParty.roi_tanh_warping.ibug.roi_tanh_warping.reference_impl as ref
 from .rtnet import rtnet50, rtnet101, FCN
 from .resnet import Backbone, DeepLabV3Plus
 from torch.nn.functional import softmax
