@@ -1,7 +1,7 @@
 import math
 import torch
 import torch.nn as nn
-from tools.preAnnotation.thirdParty.roi_tanh_warping.ibug.roi_tanh_warping import (roi_tanh_polar_to_roi_tanh,
+from classes.preAnnotation.thirdParty.roi_tanh_warping.ibug.roi_tanh_warping import (roi_tanh_polar_to_roi_tanh,
                                    roi_tanh_to_roi_tanh_polar)
 
 
